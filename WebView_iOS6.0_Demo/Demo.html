@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Script-based animation using requestAnimationFrame</title>
+        <style>
+            div { position: absolute; left: 10px; padding: 50px;
+                background: crimson; color: white }
+            </style>
+        
+        <script type="text/javascript">
+            var requestId = 0;
+            
+            function animate(time) {
+                document.getElementById("animated").style.left =
+                (time - animationStartTime) % 2000 / 4 + "px";
+                requestId = window.webkitRequestAnimationFrame(animate);
+            }
+            
+            function start() {
+                //alert(window.webkitRequestAnimationFrame);
+                animationStartTime = Date.now();
+                requestId = window.webkitRequestAnimationFrame(animate);
+                document.getElementById("animated").innerHTML = "Start";
+                
+            }
+            function stop() {
+                if (requestId)
+                window.webkitCancelAnimationFrame(requestId);
+                requestId = 0;
+                document.getElementById("animated").innerHTML = "Stop";
+            }
+            
+            function setfocus()
+            {
+                document.getElementById("textBox").focus();
+            }
+            </script>
+    </head>
+    <body>
+        <div id="animated">Hello there.</div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <button onclick="start();">Click me to start!</button>
+        <button onclick="stop();">Click me to stop!</button>
+        
+        <br>
+        <br>
+        <br>
+        
+        Select file to upload
+        
+        <br>
+        <br>
+        
+        <input type="file"></input>
+        
+        <br>
+        <br>
+        
+        <button onclick="setfocus();">Click me to focus on textbox!</button>
+        
+        <br>
+        <br>
+        
+        <input id="textBox" type="textfield">Enter the text</input>
+        
+        <br>
+        <br>
+        
+        Play youtube
+        
+        <br>
+        <br>
+        
+        <embed id="yt" src="http://www.youtube.com/watch?v=pwGIogQWa5I" type="application/x-shockwave-flash"
+            width="%0.0f" height="%0.0f"></embed>
+        
+        <br>
+        <br>
+
+        
+    </body>
+</html>

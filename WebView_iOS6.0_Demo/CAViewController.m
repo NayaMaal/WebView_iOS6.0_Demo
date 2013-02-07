@@ -13,10 +13,15 @@
 @end
 
 @implementation CAViewController
-
+@synthesize myWebView = _myWebView;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Demo" ofType:@"html"];
+    [self.myWebView setKeyboardDisplayRequiresUserAction:NO];
+    [self.myWebView loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:filePath]]];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

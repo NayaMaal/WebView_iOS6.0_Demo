@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CAViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIWebView *myWebView;
 
 @end

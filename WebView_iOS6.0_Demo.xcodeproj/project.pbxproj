@@ -19,6 +19,7 @@
 		A0D0533316C37A4100FB3741 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D0533116C37A4100FB3741 /* MainStoryboard_iPhone.storyboard */; };
 		A0D0533616C37A4100FB3741 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D0533416C37A4100FB3741 /* MainStoryboard_iPad.storyboard */; };
 		A0D0533916C37A4100FB3741 /* CAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D0533816C37A4100FB3741 /* CAViewController.m */; };
+		A0D0534016C37A6900FB3741 /* Demo.html in Resources */ = {isa = PBXBuildFile; fileRef = A0D0533F16C37A6900FB3741 /* Demo.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		A0D0533516C37A4100FB3741 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		A0D0533716C37A4100FB3741 /* CAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAViewController.h; sourceTree = "<group>"; };
 		A0D0533816C37A4100FB3741 /* CAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAViewController.m; sourceTree = "<group>"; };
+		A0D0533F16C37A6900FB3741 /* Demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Demo.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				A0D0533716C37A4100FB3741 /* CAViewController.h */,
 				A0D0533816C37A4100FB3741 /* CAViewController.m */,
 				A0D0532016C37A4000FB3741 /* Supporting Files */,
+				A0D0533F16C37A6900FB3741 /* Demo.html */,
 			);
 			path = WebView_iOS6.0_Demo;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				A0D0533016C37A4100FB3741 /* Default-568h@2x.png in Resources */,
 				A0D0533316C37A4100FB3741 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A0D0533616C37A4100FB3741 /* MainStoryboard_iPad.storyboard in Resources */,
+				A0D0534016C37A6900FB3741 /* Demo.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				A0D0533E16C37A4100FB3741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
