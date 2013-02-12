@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A050DB3E16CA50A8000224AD /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = A050DB3D16CA50A8000224AD /* ReadMe.txt */; };
 		A0D0531A16C37A4000FB3741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0531916C37A4000FB3741 /* UIKit.framework */; };
 		A0D0531C16C37A4000FB3741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0531B16C37A4000FB3741 /* Foundation.framework */; };
 		A0D0531E16C37A4000FB3741 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D0531D16C37A4000FB3741 /* CoreGraphics.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A050DB3D16CA50A8000224AD /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		A0D0531516C37A4000FB3741 /* WebView_iOS6.0_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView_iOS6.0_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D0531916C37A4000FB3741 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A0D0531B16C37A4000FB3741 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +97,7 @@
 				A0D0533816C37A4100FB3741 /* CAViewController.m */,
 				A0D0532016C37A4000FB3741 /* Supporting Files */,
 				A0D0533F16C37A6900FB3741 /* Demo.html */,
+				A050DB3D16CA50A8000224AD /* ReadMe.txt */,
 			);
 			path = WebView_iOS6.0_Demo;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				A0D0533316C37A4100FB3741 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A0D0533616C37A4100FB3741 /* MainStoryboard_iPad.storyboard in Resources */,
 				A0D0534016C37A6900FB3741 /* Demo.html in Resources */,
+				A050DB3E16CA50A8000224AD /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +280,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebView_iOS6.0_Demo/WebView_iOS6.0_Demo-Prefix.pch";
 				INFOPLIST_FILE = "WebView_iOS6.0_Demo/WebView_iOS6.0_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -287,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebView_iOS6.0_Demo/WebView_iOS6.0_Demo-Prefix.pch";
 				INFOPLIST_FILE = "WebView_iOS6.0_Demo/WebView_iOS6.0_Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
